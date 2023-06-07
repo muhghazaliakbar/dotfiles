@@ -17,3 +17,20 @@ nvm use default --silent
 # Pointing Java Home directory to fix elasticsearch issue
 # Don't forget to set `xpack.ml.enabled: false` at `/opt/homebrew/etc/elasticsearch/elasticsearch.yml`
 export ES_JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+
+# Project aliases
+# Me
+alias deskindo="cd ~/Projects/me/desksetupindonesia"
+
+# Psicologia y Mente
+alias pym="cd ~/Projects/PalauaAndSons/psicologiaymente/psicologiaymente"
+alias pym-next="cd ~/Projects/PalauaAndSons/psicologiaymente/psicologiaymente-next"
+
+# Escuela de Musica - Frontend
+alias edm="cd ~/Projects/PalauaAndSons/escuelademusica/escuelademusica"
+alias edx="cd ~/Projects/PalauaAndSons/escuelademusica/edx"
+
+# Escuela de Musica - Backend
+alias edb-be="cd ~/Projects/PalauaAndSons/escuelademusica/bajistas-backend"
+alias edg-be="cd ~/Projects/PalauaAndSons/escuelademusica/guitarristas-backend"
+alias edm-be="cd ~/Projects/PalauaAndSons/escuelademusica/escuelademusica-backend"
