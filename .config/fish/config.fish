@@ -13,3 +13,7 @@ end
 
 set -x NVM_DIR ~/.nvm
 nvm use default --silent
+
+# Pointing Java Home directory to fix elasticsearch issue
+# Don't forget to set `xpack.ml.enabled: false` at `/opt/homebrew/etc/elasticsearch/elasticsearch.yml`
+export ES_JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
